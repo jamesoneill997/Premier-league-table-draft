@@ -2,10 +2,10 @@ import urllib
 import urllib.request
 from bs4 import BeautifulSoup
 import string
-import texttable as tt
+#import texttable as tt (this feature is currently being developed)
 
-headings = ['Team','Pts']
-tab.header(headings)
+#headings = ['Team','Pts']
+#tab.header(headings)
 
 
 def make_soup(EPL):
